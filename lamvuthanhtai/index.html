@@ -20,14 +20,59 @@
     <!-- Link css -->
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
 <body>
     <div class="myapp">
+        <!-- Navbar mobile -->
+        <nav class="nav__mobile">
+            <div class="nav__mobile--cover">
+                <img src="./assets/img/アートワーク 7.svg" alt="company_logo" class="nav__mobile--logo">
+                <div class="nav__mobile--btn" id="menu__btn">
+                    <i class="fa-solid fa-bars nav__mobile--menu"></i>
+                </div>
+            </div>
+            <ul class="nav__mobile--list" id="menu__list">
+                <li class="nav__mobile--item">
+                    <a href="#" class="nav__mobile--link">
+                        検査結果画面の解説
+                        <i class="fa-sharp fa-solid fa-angle-right nav__mobile--icon"></i>
+                    </a>
+                </li>
+                <li class="nav__mobile--item">
+                    <a href="#" class="nav__mobile--link">
+                        主な機能
+                        <i class="fa-sharp fa-solid fa-angle-right nav__mobile--icon"></i>
+                    </a>
+                </li>
+                <li class="nav__mobile--item">
+                    <a href="#" class="nav__mobile--link">
+                        利用シーン別ガイド
+                        <i class="fa-sharp fa-solid fa-angle-right nav__mobile--icon"></i>
+                    </a>
+                </li>
+                <li class="nav__mobile--item">
+                    <a href="#" class="nav__mobile--link">
+                        初めてご利用の方へ
+                        <i class="fa-sharp fa-solid fa-angle-right nav__mobile--icon"></i>
+                    </a>
+                </li>
+                <li class="nav__mobile--item">
+                    <a href="#" class="nav__mobile--link">
+                        FAQ
+                        <i class="fa-sharp fa-solid fa-angle-right nav__mobile--icon"></i>
+                    </a>
+                </li>
+                <li class="nav__mobile--item">
+                    <a href="#" class="nav__mobile--move">サポートサイト</a>
+                </li>
+            </ul>
+        </nav>
         <div class="myapp__cover">
-            <div class="myapp__column--left">
+            <!-- Navbar desktop -->
+            <div class="myapp__column--left nav__desktop">
                 <nav class="navbar">
                     <div class="navbar__cover">
                         <img src="./assets/img/アートワーク 7.svg" alt="company_logo" class="navbar__logo">
@@ -113,7 +158,8 @@
                             <a href="#" class="option__link">
                                 <div class="option__content">
                                     <div class="option__img">
-                                        <img src="./assets/img/icon_charbar.svg" alt="icon_charbar" class="option__logo">
+                                        <img src="./assets/img/icon_charbar.svg" alt="icon_charbar"
+                                            class="option__logo">
                                     </div>
                                     <div class="option__title">
                                         <p class="option__para">
@@ -173,7 +219,8 @@
                             <a href="#" class="option__link">
                                 <div class="option__content">
                                     <div class="option__img">
-                                        <img src="./assets/img/icon_comment.svg" alt="icon_comment" class="option__logo">
+                                        <img src="./assets/img/icon_comment.svg" alt="icon_comment"
+                                            class="option__logo">
                                     </div>
                                     <div class="option__title">
                                         <p class="option__para">
@@ -191,72 +238,72 @@
                             <p class="explain__para">SALES SCOREのアウトプット項目について紹介します。</p>
                         </div>
                     </section>
-                    <section class="output">
-                        <div class="output__cover">
-                            <h3 class="output__heading">適性検査のアウトプット</h3>
-                            <ul class="output__list">
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47503.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">データサマリー</p>
+                    <section class="chart">
+                        <div class="chart__cover">
+                            <h3 class="chart__heading">適性検査のアウトプット</h3>
+                            <ul class="chart__list">
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47503.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">データサマリー</p>
                                     </a>
                                 </li>
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47547.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">データ詳細</p>
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47547.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">データ詳細</p>
                                     </a>
                                 </li>
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47550.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">データ比較</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="output__cover">
-                            <h3 class="output__heading">企業傾向分析</h3>
-                            <ul class="output__list">
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47553.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">全体比較</p>
-                                    </a>
-                                </li>
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47556.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">営業タイプ傾向</p>
-                                    </a>
-                                </li>
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47557.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">High-Low分析</p>
-                                    </a>
-                                </li>
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47558.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">構成比比較</p>
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47550.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">データ比較</p>
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="output__cover">
-                            <h3 class="output__heading">検査結果詳細</h3>
-                            <ul class="output__list">
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47564.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title">表示される予測値</p>
+                        <div class="chart__cover">
+                            <h3 class="chart__heading">企業傾向分析</h3>
+                            <ul class="chart__list">
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47553.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">全体比較</p>
                                     </a>
                                 </li>
-                                <li class="output__item">
-                                    <a href="#" class="output__link">
-                                        <img src="./assets/img/Group 47563.svg" alt="char_logo" class="output__logo">
-                                        <p class="output__title"> 表示される営業タイプ</p>
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47556.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">営業タイプ傾向</p>
+                                    </a>
+                                </li>
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47557.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">High-Low分析</p>
+                                    </a>
+                                </li>
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47558.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">構成比比較</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="chart__cover chart__cover--fix">
+                            <h3 class="chart__heading">検査結果詳細</h3>
+                            <ul class="chart__list">
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47564.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title">表示される予測値</p>
+                                    </a>
+                                </li>
+                                <li class="chart__item">
+                                    <a href="#" class="chart__link">
+                                        <img src="./assets/img/Group 47563.svg" alt="char_logo" class="chart__logo">
+                                        <p class="chart__title"> 表示される営業タイプ</p>
                                     </a>
                                 </li>
                             </ul>
@@ -270,73 +317,78 @@
                         </div>
                     </section>
                     <section class="info">
-                        <div class="info__column">
+                        <div class="info__row">
                             <div class="info__cover">
                                 <h5 class="info__title">管理者</h5>
                                 <ul class="info__list">
-                                    <li class="info__item">管理者の登録・編集</li>
-                                    <li class="info__item">表示される管理者情報</li>
+                                    <li class="info__item">・管理者の登録・編集</li>
+                                    <li class="info__item">・表示される管理者情報</li>
                                 </ul>
                             </div>
-                            <div class="info__cover">
-                                <h5 class="info__title">応募者</h5>
-                                <ul class="info__list">
-                                    <li class="info__item">応募者の登録・編集</li>
-                                    <li class="info__item">表示される応募者情報</li>
-                                </ul>
-                            </div>
-                            <div class="info__cover">
-                                <h5 class="info__title">適性検査</h5>
-                                <ul class="info__list">
-                                    <li class="info__item">適性検査推奨環境</li>
-                                    <li class="info__item">受検メールの送信</li>
-                                    <li class="info__item">ＵＲＬの発行</li>
-                                    <li class="info__item">受検者のステータス</li>
-                                    <li class="info__item">検査実施項目</li>
-                                </ul>
-                            </div>
-                            <div class="info__cover">
-                                <h5 class="info__title">契約について</h5>
-                                <ul class="info__list">
-                                    <li class="info__item">契約情報の確認</li>
-                                    <li class="info__item">解約の方法</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="info__column">
                             <div class="info__cover">
                                 <h5 class="info__title">従業員</h5>
                                 <ul class="info__list">
-                                    <li class="info__item">従業員の登録・編集</li>
-                                    <li class="info__item">表示される従業員情報</li>
+                                    <li class="info__item">・従業員の登録・編集</li>
+                                    <li class="info__item">・表示される従業員情報</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info__row">
+                            <div class="info__cover">
+                                <h5 class="info__title">応募者</h5>
+                                <ul class="info__list">
+                                    <li class="info__item">・応募者の登録・編集</li>
+                                    <li class="info__item">・表示される応募者情報</li>
                                 </ul>
                             </div>
                             <div class="info__cover">
                                 <h5 class="info__title">実績データの登録</h5>
                                 <ul class="info__list">
-                                    <li class="info__item">実績の登録・編集</li>
-                                    <li class="info__item">分析対象範囲の指定</li>
-                                    <li class="info__item">成績区分の指定</li>
+                                    <li class="info__item">・実績の登録・編集</li>
+                                    <li class="info__item">・分析対象範囲の指定</li>
+                                    <li class="info__item">・成績区分の指定</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info__row">
+                            <div class="info__cover">
+                                <h5 class="info__title">適性検査</h5>
+                                <ul class="info__list">
+                                    <li class="info__item">・適性検査推奨環境</li>
+                                    <li class="info__item">・受検メールの送信</li>
+                                    <li class="info__item">・ＵＲＬの発行</li>
+                                    <li class="info__item">・受検者のステータス</li>
+                                    <li class="info__item">・検査実施項目</li>
                                 </ul>
                             </div>
                             <div class="info__cover">
                                 <h5 class="info__title">ダッシュボード機能</h5>
                                 <ul class="info__list">
-                                    <li class="info__item">実績データ分析機能</li>
-                                    <li class="info__item">運用サポート機能</li>
+                                    <li class="info__item">・実績データ分析機能</li>
+                                    <li class="info__item">・運用サポート機能</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info__row">
+                            <div class="info__cover">
+                                <h5 class="info__title">契約について</h5>
+                                <ul class="info__list">
+                                    <li class="info__item">・契約情報の確認</li>
+                                    <li class="info__item">・解約の方法</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                 </main>
-                <footer class="footer">
-                    <div class="footer__cover">
-                        <h6 class="footer__info">Copyright © 2022 SALES SCORE All Right Reserved. .</h6>
-                    </div>
-                </footer>
             </div>
         </div>
+        <footer class="footer">
+            <div class="footer__cover">
+                <h6 class="footer__info">Copyright © 2022 SALES SCORE All Right Reserved. .</h6>
+            </div>
+        </footer>
     </div>
+    <script src="./assets/js/breadcrumb.js"></script>
 </body>
 
 </html>
