@@ -23,25 +23,21 @@
 
 /* Reset CSS */
 
-/* Box-sizing border-box cho tất cả các phần tử */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Loại bỏ đường viền cho các phần tử */
 button, input, select, textarea {
   border: none;
   background: none;
 }
 
-/* Thiết lập font chung và kích thước chữ mặc định */
 body {
   font-family: var(--ff-main);
 }
 
-/* Loại bỏ định dạng mặc định của danh sách và đường gạch chân của liên kết */
 ul, ol {
   list-style: none;
 }
@@ -50,7 +46,6 @@ a {
   text-decoration: none;
 }
 
-/* Thêm thuộc tính cursor pointer cho các phần tử có thể tương tác */
 a, button {
   cursor: pointer;
 }

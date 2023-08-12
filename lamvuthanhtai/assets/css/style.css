@@ -41,12 +41,12 @@
 }
 
 .navbar__move {
-    width: 174px;
+    width: 175px;
     border-radius: 5px;
     text-align: center;
     letter-spacing: -2px;
     font-size: var(--fs-18);
-    padding: 8px 0px 11px 8px;
+    padding: 8px 0px 10px 8px;
     color: var(--white-color);
     background-color: var(--main-color);
 }
@@ -120,6 +120,7 @@
     padding: 12px 30px;
 }
 
+
 .nav__mobile--link {
     display: flex;
     align-items: center;
@@ -183,6 +184,7 @@
 .header__login {
     gap: 22px;
     display: flex;
+    align-items: center;
     letter-spacing: -4px;
     font-size: var(--fs-14);
     color: var(--icon-color);
@@ -195,6 +197,7 @@
 .header__mail {
     gap: 18px;
     display: flex;
+    align-items: center;
     letter-spacing: -1px;
     font-size: var(--fs-14);
     color: var(--icon-color);
@@ -459,6 +462,10 @@
     flex-direction: row;
 }
 
+.info__row--fix {
+    margin-top: 18px;
+}
+
 .info__cover {
     width: 50%;
     position: relative;
@@ -477,6 +484,10 @@
 
 .info__list {
   line-height: 32px;
+}
+
+.info__list--fix {
+    margin-top: -14px;
 }
 
 .info__item {
